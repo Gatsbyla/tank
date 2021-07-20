@@ -28,7 +28,7 @@ public class GameModel {
 	// List<Tank> tanks = new ArrayList<>();
 	// List<Explode> explodes = new ArrayList<>();
 	ColliderChain chain = new ColliderChain();
-
+	//不再单独地往list里扔
 	private List<GameObject> objects = new ArrayList<>();
 
 	public static GameModel getInstance() {
